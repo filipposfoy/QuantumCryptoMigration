@@ -1,0 +1,10 @@
+Risk Assessment Report for samples/c_code_sample.c
+==================================================
+
+The following vulnerabilities were found:
+
+Line 15: AES_set_encrypt_key(key, 128, &enc_key);
+Function: AES_set_encrypt_key
+Risk Level: Medium
+Description: AES usage might be vulnerable if keys or modes are misused.
+

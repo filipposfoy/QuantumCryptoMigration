@@ -1,0 +1,10 @@
+Risk Assessment Report for samples/js_code_sample.js
+==================================================
+
+The following vulnerabilities were found:
+
+Line 5: const hash = crypto.createHash('md5').update(password).digest('hex');
+Function: None
+Risk Level: Low
+Description: MD5 is cryptographically broken and unsuitable for further use.
+
